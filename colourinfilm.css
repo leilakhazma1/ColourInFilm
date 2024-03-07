@@ -2,50 +2,58 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    color: black; 
+    color: black;
     background-image: url('Paris-Texas-018.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
-    height: 100vh; 
-  }
-  
-  h1 {
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
-  }
-  
-  .navbar {
+    font-size: 50px;
+}
+
+.navbar {
     background-color: #f8f8f8;
-  }
-  
-  .film-list {
+    padding: 10px 0;
+}
+
+.film-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0;
-  }
-  
-  .film-list li {
-    margin: 0 10px;
+}
+
+.film-list li {
     cursor: pointer;
-  }
-  
-  .navbar {
+}
+
+.film-list li a {
+    text-decoration: none; 
+}
+
+.top-navbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
-    padding: 10px 0;
-  }
-  
-  .container {
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
     text-align: center;
-  }
-  
+}
