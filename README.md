@@ -17,3 +17,6 @@ Backend -
 Image carousel on home page, set interval to change the image every 5 seconds
 Onclick event on film page when the images are changed, colour palette to reflect in website elements
 
+Logistics - 
+Collect all asset images
+
