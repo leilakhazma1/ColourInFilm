@@ -15,12 +15,13 @@
         "id": "Film 2"
       },
       {
-        "name": "Her",
-        "director": "Spike Jonze",
-        "release_date": "2013-12-18",
-        "colors": ["#E8AEB7", "#B8A6A6", "#C6C3B5", "#F1E6E1", "#D8C3A5", "#F7F5ED"],
+        "name": "Amélie",
+        "director": "Jean-Pierre Jeunet",
+        "release_date": "2001-04-25",
+        "colors": ["#FAEBD7", "#E6E6FA", "#E0FFFF", "#FFE4C4", "#FFDAB9", "#FFC0CB"],
         "id": "Film 3"
-      },
+    },
+    
       {
         "name": "Pan's Labyrinth",
         "director": "Guillermo del Toro",
