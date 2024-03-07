@@ -11,6 +11,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative; /* Ensure z-index works */
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: -1; /* Ensure the overlay is below the content */
 }
 
 h1 {
@@ -21,7 +33,6 @@ h1 {
 }
 
 .navbar {
-    background-color: #f8f8f8;
     padding: 10px 0;
 }
 
@@ -38,6 +49,8 @@ h1 {
 
 .film-list li a {
     text-decoration: none; 
+    color: white; /* Set text color to white */
+    font-weight: bold; /* Increase font weight */
 }
 
 .top-navbar {
