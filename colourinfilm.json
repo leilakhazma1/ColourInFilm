@@ -1,0 +1,59 @@
+{
+    "films": [
+      {
+        "name": "The Grand Budapest Hotel",
+        "director": "Wes Anderson",
+        "release_date": "2014-03-28",
+        "colors": ["#F7CAC9", "#4A5C60", "#E6A0C4", "#C7BBC9", "#8E5572", "#CBB1A2"]
+      },
+      {
+        "name": "Eternal Sunshine of the Spotless Mind",
+        "director": "Michel Gondry",
+        "release_date": "2004-03-19",
+        "colors": ["#FCF6F5", "#E1E6FA", "#9CA6C5", "#6F7D99", "#C3B3C2", "#F6F7EB"]
+      },
+      {
+        "name": "Her",
+        "director": "Spike Jonze",
+        "release_date": "2013-12-18",
+        "colors": ["#E8AEB7", "#B8A6A6", "#C6C3B5", "#F1E6E1", "#D8C3A5", "#F7F5ED"]
+      },
+      {
+        "name": "Pan's Labyrinth",
+        "director": "Guillermo del Toro",
+        "release_date": "2006-10-29",
+        "colors": ["#2D2D2A", "#D9D4CF", "#948B89", "#55443D", "#827F76", "#C4C1B6"]
+      },
+      {
+        "name": "The Truman Show",
+        "director": "Peter Weir",
+        "release_date": "1998-06-05",
+        "colors": ["#4E5A56", "#B5C1B4", "#8AA1A8", "#F4F4F4", "#9CAFC4", "#D3D6DA"]
+      },
+      {
+        "name": "American Beauty",
+        "director": "Sam Mendes",
+        "release_date": "1999-09-15",
+        "colors": ["#B9C7B8", "#5F6557", "#E0D5C6", "#B69A86", "#E4D8B9", "#7A7D71"]
+      },
+      {
+        "name": "Léon: The Professional",
+        "director": "Luc Besson",
+        "release_date": "1994-09-14",
+        "colors": ["#282828", "#BABABA", "#464646", "#7B7B7B", "#939393", "#636363"]
+      },
+      {
+        "name": "Fight Club",
+        "director": "David Fincher",
+        "release_date": "1999-10-15",
+        "colors": ["#141414", "#878787", "#D8D8D8", "#5E5E5E", "#676767", "#C3C3C3"]
+      },
+      {
+        "name": "Paris, Texas",
+        "director": "Wim Wenders",
+        "release_date": "1984-05-19",
+        "colors": ["#D2D0C8", "#8E8C84", "#5E5A54", "#37352F", "#B5B3AA", "#6A6962"]
+      }
+    ]
+  }
+  
