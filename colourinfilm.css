@@ -6,6 +6,10 @@ body {
     background-image: url('your-large-image.jpg');
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
   }
   
   h1 {
@@ -31,7 +35,6 @@ body {
     cursor: pointer;
   }
   
- 
   .navbar {
     position: fixed;
     top: 0;
@@ -40,6 +43,8 @@ body {
     z-index: 9999;
     padding: 10px 0;
   }
-
   
+  .container {
+    text-align: center;
+  }
   
