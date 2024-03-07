@@ -3,6 +3,11 @@ Mini Project 1
 
 Mini project outine: 
 
+Figma link 
+
+https://www.figma.com/file/NPqqgOtqsLGQt9M2F4bNAG/Untitled?type=design&node-id=0%3A1&mode=design&t=ckAoyv4ohWUrTFdg-1
+
+
 Colour in Film 
 
 Objective - display ~ 10 films and reflect their palette into UI
