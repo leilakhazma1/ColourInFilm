@@ -1,14 +1,7 @@
 body {
     margin: 0;
-    padding: 0;
-    background-image: url('image.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+  padding: 0; }
 
-  h1 {
-    text-align: center;
-  }
 
   .navbar {
     display: flex;
@@ -32,7 +25,6 @@ body {
   
   .navbar li {
     margin: 0 10px;
-    color: rgb(0, 0, 0);
     font-size: 16px;
   }
   
@@ -48,18 +40,5 @@ body {
     max-height: 100%;
   }
 
-  .film-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .film-list li {
-    margin: 0 10px;
-    cursor: pointer;
-    color: black; /* Set text color to black */
-  }
   
   
