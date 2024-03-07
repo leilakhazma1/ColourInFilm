@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.carousel-container {
+    width: 80%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    width: 3600%; 
+    animation: carousel-scroll 30s linear infinite;
+}
+
+.carousel-item {
+    flex: 0 0 100%; 
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@keyframes carousel-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-3600%); 
+    }
+}
