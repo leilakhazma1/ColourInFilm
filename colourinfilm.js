@@ -7,13 +7,21 @@ const backgroundImages = [
 
 let currentIndex = 0;
 
-function changeBackground() {
-  // Change the background image
-  document.body.style.backgroundImage = `url(${backgroundImages[currentIndex]})`;
+//function changeBackground() {
+  // Fade out the current background image
+ // document.body.style.opacity = 0.5; // Set the opacity to a desired value \
+
+  //setTimeout(() => {
+    // Change the background image
+   // document.body.style.backgroundImage = `url(${backgroundImages[currentIndex]})`;
+
+    // Fade in the new background image
+  //  document.body.style.opacity = 1;
+  //}, 1000); // Wait for 1 second before changing the background image
 
   // Increment the index or loop back to the beginning if at the end
-  currentIndex = (currentIndex + 1) % backgroundImages.length;
-}
+  //currentIndex = (currentIndex + 1) % backgroundImages.length;
+//}
 
 // Call the function every five seconds
-setInterval(changeBackground, 5000);
+//setInterval(changeBackground, 5000);
