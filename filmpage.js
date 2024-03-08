@@ -1,5 +1,4 @@
 
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -29,7 +28,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
 // Function to fetch film colors by ID
 function fetchFilmColorsById(filmId) {
   // Fetch the JSON data
@@ -44,12 +42,11 @@ function fetchFilmColorsById(filmId) {
         }
       }
     })
-    
     .catch(error => {
       console.error('Error fetching JSON data:', error);
     });
 }
-// Function to create color slots in the sidebar
+// Function to create color slots in the sidebar, mouseover event to change background 
 function createColorSlots(colors) {
   const sidebar = document.querySelector('.sidebar');
   colors.forEach(color => {
@@ -63,7 +60,6 @@ function createColorSlots(colors) {
       document.body.style.backgroundColor = '';
     });
     sidebar.appendChild(colorSlot);
-
   });
 }
 
