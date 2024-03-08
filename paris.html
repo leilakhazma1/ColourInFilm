@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="filmpage.css">
 </head>
 <body>
+    <div class="navbar">
+        <a href="colourinfilm.html">Back Home</a>
+      </div>
+
 <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext">1 / 4</div>
@@ -36,15 +40,18 @@
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <br>
-  
-  
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+
+  <div class="carousel-thumbnails">
+    <div class="thumbnail" onclick="currentSlide(1)"><img src="Paris-Texas-010.jpg" alt="Thumbnail 1"></div>
+    <div class="thumbnail" onclick="currentSlide(2)"><img src="Paris-Texas-018.jpg" alt="Thumbnail 2"></div>
+    <div class="thumbnail" onclick="currentSlide(3)"><img src="Paris-Texas-026.jpg" alt="Thumbnail 3"></div>
+    <div class="thumbnail" onclick="currentSlide(4)"><img src="Paris-Texas-067.jpg" alt="Thumbnail 4"></div>
   </div>
-    </div>
+  
+  
+  <div class="film-title-container">
+    <h2>Paris, Texas</h2>
+  </div>
 
     <div class="sidebar">
         <!-- Color slots will be dynamically added here -->
