@@ -1,8 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
+    font-family: 'Consolas', monospace;
+    letter-spacing: 3px;
+    font-weight: 20;
+    color: rgb(255, 255, 255);
     background-image: url('Paris-Texas-018.jpg');
     background-size: cover;
     background-position: center;
@@ -10,8 +12,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    position: relative; /* Ensure z-index works */
+    min-height: 100vh; /* Change height to min-height */
+    position: relative; 
 }
 
 body::after {
@@ -21,15 +23,15 @@ body::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
-    z-index: -1; /* Ensure the overlay is below the content */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
 }
 
 h1 {
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-family: 'Consolas', monospace;
+    font-size: 30px;
+    letter-spacing: 30px;
 }
 
 .navbar {
@@ -49,8 +51,8 @@ h1 {
 
 .film-list li a {
     text-decoration: none; 
-    color: white; /* Set text color to white */
-    font-weight: bold; /* Increase font weight */
+    color: white; 
+    font-weight: bold; 
 }
 
 .top-navbar {
@@ -69,4 +71,13 @@ h1 {
 
 .container {
     text-align: center;
+    padding: 50px; 
+}
+
+.slideshow-container {
+    width: 70%; 
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box; 
 }

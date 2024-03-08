@@ -1,69 +1,67 @@
 {
-    "films": [
+  "films": [
       {
-        "name": "The Grand Budapest Hotel",
-        "director": "Wes Anderson",
-        "release_date": "2014-03-28",
-        "colors": ["#F7CAC9", "#4A5C60", "#E6A0C4", "#C7BBC9", "#8E5572", "#CBB1A2"], 
-        "id": "Film 1"
+          "name": "The Grand Budapest Hotel",
+          "director": "Wes Anderson",
+          "release_date": "2014-03-28",
+          "colors": ["#F7CAC9", "#4A5C60", "#E6A0C4", "#C7BBC9", "#8E5572", "#CBB1A2"],
+          "id": "Film 1"
       },
       {
-        "name": "Eternal Sunshine of the Spotless Mind",
-        "director": "Michel Gondry",
-        "release_date": "2004-03-19",
-        "colors": ["#FCF6F5", "#E1E6FA", "#9CA6C5", "#6F7D99", "#C3B3C2", "#F6F7EB"],
-        "id": "Film 2"
+          "name": "Eternal Sunshine of the Spotless Mind",
+          "director": "Michel Gondry",
+          "release_date": "2004-03-19",
+          "colors": ["#FCF6F5", "#E1E6FA", "#9CA6C5", "#6F7D99", "#C3B3C2", "#F6F7EB"],
+          "id": "Film 2"
       },
       {
-        "name": "Amélie",
-        "director": "Jean-Pierre Jeunet",
-        "release_date": "2001-04-25",
-        "colors": ["#FAEBD7", "#E6E6FA", "#E0FFFF", "#FFE4C4", "#FFDAB9", "#FFC0CB"],
-        "id": "Film 3"
-    },
-    
-      {
-        "name": "Pan's Labyrinth",
-        "director": "Guillermo del Toro",
-        "release_date": "2006-10-29",
-        "colors": ["#2D2D2A", "#D9D4CF", "#948B89", "#55443D", "#827F76", "#C4C1B6"],
-        "id": "Film 4"
+          "name": "Amélie",
+          "director": "Jean-Pierre Jeunet",
+          "release_date": "2001-04-25",
+          "colors": ["#B2D8B3", "#D99A5B", "#9A2E45", "#46708B", "#D8D8D8", "#FFD700"],
+          "id": "Film 3"
       },
       {
-        "name": "The Truman Show",
-        "director": "Peter Weir",
-        "release_date": "1998-06-05",
-        "colors": ["#4E5A56", "#B5C1B4", "#8AA1A8", "#F4F4F4", "#9CAFC4", "#D3D6DA"],
-        "id": "Film 5"
+          "name": "Pan's Labyrinth",
+          "director": "Guillermo del Toro",
+          "release_date": "2006-10-29",
+          "colors": ["#2E0E02", "#F4F0E5", "#4F772D", "#548687", "#D9D7AC", "#E76D0C"],
+          "id": "Film 4"
       },
       {
-        "name": "American Beauty",
-        "director": "Sam Mendes",
-        "release_date": "1999-09-15",
-        "colors": ["#B9C7B8", "#5F6557", "#E0D5C6", "#B69A86", "#E4D8B9", "#7A7D71"],
-        "id": "Film 6"
+          "name": "The Truman Show",
+          "director": "Peter Weir",
+          "release_date": "1998-06-05",
+          "colors": ["#5D97B3", "#2E3131", "#F5F5F5", "#E74C3C", "#D5DBDB", "#FFC857"],
+          "id": "Film 5"
       },
       {
-        "name": "Léon: The Professional",
-        "director": "Luc Besson",
-        "release_date": "1994-09-14",
-        "colors": ["#282828", "#BABABA", "#464646", "#7B7B7B", "#939393", "#636363"], 
-        "id": "Film 7"
+          "name": "American Beauty",
+          "director": "Sam Mendes",
+          "release_date": "1999-09-15",
+          "colors": ["#8A7F71", "#C2BBB0", "#B3A394", "#645E4D", "#E2D6C5", "#7D4F50"],
+          "id": "Film 6"
       },
       {
-        "name": "Fight Club",
-        "director": "David Fincher",
-        "release_date": "1999-10-15",
-        "colors": ["#141414", "#878787", "#D8D8D8", "#5E5E5E", "#676767", "#C3C3C3"], 
-        "id": "Film 8"
+          "name": "Léon: The Professional",
+          "director": "Luc Besson",
+          "release_date": "1994-09-14",
+          "colors": ["#4D4641", "#A12730", "#2E2A27", "#AB9D8E", "#706B64", "#595350"],
+          "id": "Film 7"
       },
       {
-        "name": "Paris, Texas",
-        "director": "Wim Wenders",
-        "release_date": "1984-05-19",
-        "colors": ["#D2D0C8", "#8E8C84", "#5E5A54", "#37352F", "#B5B3AA", "#6A6962"],
-        "id": "Film 9"
+          "name": "Fight Club",
+          "director": "David Fincher",
+          "release_date": "1999-10-15",
+          "colors": ["#141414", "#878787", "#D8D8D8", "#5E5E5E", "#676767", "#C3C3C3"],
+          "id": "Film 8"
+      },
+      {
+          "name": "Paris, Texas",
+          "director": "Wim Wenders",
+          "release_date": "1984-05-19",
+          "colors": ["#719E5D", "#3E572C", "#4C96D9", "#004996", "#BFBFBF", "#FF0000"],
+          "id": "Film 9"
       }
-    ]
-  }
-  
+  ]
+}

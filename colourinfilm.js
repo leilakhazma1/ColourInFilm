@@ -1,19 +1,27 @@
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('colourinfilm.json')
-      .then(response => response.json())
-      .then(data => {
-        const filmList = document.querySelector('.film-list');
-        data.films.forEach((film, index) => {
-          const listItem = document.createElement('li');
-          const link = document.createElement('a');
-          link.href = 'filmpage.html'; // Set the link destination
-          link.textContent = film.name; // Set the text content to the film name
-          listItem.appendChild(link);
-          filmList.appendChild(listItem);
-        });
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  });
-  
+// List of background images
+const backgroundImages = [
+  'Paris-Texas-018.jpg',
+  'leon-the-professional-1994-450.jpg',
+  'american-beauty-1999-4643.jpg'
+];
+
+let currentIndex = 0;
+
+//function changeBackground() {
+  // Fade out the current background image
+ // document.body.style.opacity = 0.5; // Set the opacity to a desired value \
+
+  //setTimeout(() => {
+    // Change the background image
+   // document.body.style.backgroundImage = `url(${backgroundImages[currentIndex]})`;
+
+    // Fade in the new background image
+  //  document.body.style.opacity = 1;
+  //}, 1000); // Wait for 1 second before changing the background image
+
+  // Increment the index or loop back to the beginning if at the end
+  //currentIndex = (currentIndex + 1) % backgroundImages.length;
+//}
+
+// Call the function every five seconds
+//setInterval(changeBackground, 5000);
