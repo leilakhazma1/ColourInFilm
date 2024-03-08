@@ -1,3 +1,4 @@
+/* Updated CSS for the carousel */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,6 +12,7 @@ body {
   margin: 0 auto; 
   padding: 30px;
   box-sizing: border-box;
+  position: relative; /* Added */
 }
 
 .mySlides {
@@ -30,6 +32,7 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: rgba(0, 0, 0, 0.8); /* Added */
 }
 
 .next {
@@ -38,7 +41,7 @@ body {
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6); /* Changed opacity */
 }
 
 .text {
@@ -59,16 +62,7 @@ body {
   top: 0;
 }
 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+/* Removed dot styles */
 
 .sidebar {
   width: 20%; 
@@ -96,4 +90,37 @@ body {
   height: 100vh; 
   z-index: -1; 
   background-color: var(--background-color); 
+  opacity: 0.4; /* Changed opacity */
+  transition: opacity 0.3s ease;
+}
+
+.film-title-container{
+  font-family: 'Consolas', monospace;
+  letter-spacing: 10px;
+  font-weight: 20;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100px; /* Adjust the size of the thumbnails as needed */
+  height: auto;
+  opacity: 0.6; /* Reduced opacity for thumbnails */
+  transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover img {
+  opacity: 1; /* Full opacity on hover */
 }
