@@ -40,20 +40,25 @@ function createColorSlots(colors) {
   });
 }
 
-// Fetch the JSON data
-fetch('colourinfilm.json')
-  .then(response => response.json())
-  .then(data => {
-    // Assuming data is an object with a 'films' array
-    if (Array.isArray(data.films)) {
-      const film = data.films.find(film => film.id === "Film 1"); // Change the film ID here
-      if (film) {
-        createColorSlots(film.colors);
+// Function to fetch film colors by ID
+function fetchFilmColorsById(filmId) {
+  // Fetch the JSON data
+  fetch('colourinfilm.json')
+    .then(response => response.json())
+    .then(data => {
+      // Assuming data is an object with a 'films' array
+      if (Array.isArray(data.films)) {
+        const film = data.films.find(film => film.id === filmId);
+        if (film) {
+          createColorSlots(film.colors);
+        }
       }
-    }
-  })
-  .catch(error => {
-    console.error('Error fetching JSON data:', error);
-  });
+    })
+    .catch(error => {
+      console.error('Error fetching JSON data:', error);
+    });
+}
+
+
 
 
