@@ -5,7 +5,7 @@ body {
     letter-spacing: 3px;
     font-weight: 20;
     color: rgb(255, 255, 255);
-    background-image: url('Paris-Texas-018.jpg');
+    background-image: url('/assets/Paris-Texas-018.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

@@ -44,7 +44,7 @@ textarea {
     padding: 5px;
     margin-bottom: 20px; 
     border: 10px solid transparent;
-    border-image: url('leon-the-professional-1994-437.jpg') 30 stretch;
+    border-image: url('/assets/leon-the-professional-1994-437.jpg') 30 stretch;
     opacity: 70%;
     border-radius: 5px;
     font-size: 15px; 
@@ -54,7 +54,7 @@ input[type="submit"] {
     padding: 10px 20px;
     color: rgb(0, 0, 0);
     border: 10px solid transparent;
-    border-image: url('leon-the-professional-1994-452.jpg') 30 stretch;
+    border-image: url('/assets/leon-the-professional-1994-452.jpg') 30 stretch;
     opacity: 50%;
     border-radius: 5px;
     cursor: pointer;
@@ -70,7 +70,7 @@ input[type="submit"]:hover {
 
 
 .navbar {
-    background-image: url('Paris-Texas-018.jpg');
+    background-image: url('/assets/Paris-Texas-018.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;
