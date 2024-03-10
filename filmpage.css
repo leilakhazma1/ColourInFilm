@@ -32,7 +32,7 @@ body {
   transition: 0.6s ease;
   border-radius: 3px;
   user-select: none;
-  background-image: url('/assetsParis-Texas-018.jpg');
+  background-image: url('/assets/Paris-Texas-018.jpg');
   background-size: auto;
   opacity: 0.6;
 }
@@ -44,7 +44,6 @@ body {
 .next {
   right: 20px; 
 }
-
 
 
 
