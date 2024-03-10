@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas', monospace;
+    letter-spacing: 3px;
+    font-weight: 30;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Consolas', monospace;
+    font-size: 40px; 
+    letter-spacing: 11px; 
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 15px; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 900px; 
+    padding: 5px;
+    margin-bottom: 20px; 
+    border: 10px solid transparent;
+    border-image: url('leon-the-professional-1994-437.jpg') 30 stretch;
+    opacity: 70%;
+    border-radius: 5px;
+    font-size: 15px; 
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: 10px solid transparent;
+    border-image: url('leon-the-professional-1994-452.jpg') 30 stretch;
+    opacity: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px; 
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+    color: rgb(27, 67, 41);
+}
+
+
+.navbar {
+    background-image: url('Paris-Texas-018.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+    opacity: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Consolas', monospace;
+    letter-spacing: 20px;
+    font-weight: 900;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}

@@ -14,6 +14,7 @@ body {
     align-items: center;
     min-height: 100vh; 
     position: relative; 
+    text-decoration: none;
 }
 
 body::after {
@@ -81,3 +82,12 @@ h1 {
     padding: 20px;
     box-sizing: border-box; 
 }
+
+.special-link  {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    letter-spacing: 15px;
+
+}
+
