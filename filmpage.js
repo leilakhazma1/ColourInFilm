@@ -41,6 +41,7 @@ function fetchFilmColorsById(filmId) {
       console.error('Error fetching JSON data:', error);
     });
 }
+
 // Function to create color slots in the sidebar, mouseover event to change background 
 function createColorSlots(colors) {
   const sidebar = document.querySelector('.sidebar');
