@@ -1,57 +1,57 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const fs = require('fs');
 
-// Serve static files from the 'public' folder
-app.use(express.static('public'));
+
+// Serve static files from the 'Public' folder
+app.use(express.static(path.join(__dirname, 'Public')));
 
 // Define routes for serving HTML files
 
 app.get('/amelie', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'amelie.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'amelie.html'));
 });
 
 app.get('/american', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'american.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'american.html'));
 });
 
 app.get('/colour', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'colour.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'colour.html'));
 });
 
 app.get('/colourinfilm', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'colourinfilm.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'colourinfilm.html'));
 });
 
 app.get('/eternalsunshine', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'eternalsunshine.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'eternalsunshine.html'));
 });
 
 app.get('/fightclub', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'fightclub.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'fightclub.html'));
 });
 
 app.get('/pan', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'pan.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'pan.html'));
 });
 
 app.get('/paris', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'paris.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'paris.html'));
 });
 
 app.get('/thegrandbudapest', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'thegrandbudapest.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'thegrandbudapest.html'));
 });
 
 app.get('/truman', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Public', 'truman.html'));
+    res.sendFile(path.join(__dirname, 'Public', 'HTML', 'truman.html'));
 });
 
 // Define API route for fetching film colors
 app.get('/api/film-colors/:filmId', (req, res) => {
     const filmId = req.params.filmId;
-    fs.readFile('colourinfilm.json', 'utf8', (err, data) => {
+    fs.readFile(path.join(__dirname, 'Public', 'colourinfilm.json'), 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
             res.status(500).json({ error: 'Internal server error' });
@@ -73,6 +73,7 @@ app.get('/api/film-colors/:filmId', (req, res) => {
 });
 
 // Start the server
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
