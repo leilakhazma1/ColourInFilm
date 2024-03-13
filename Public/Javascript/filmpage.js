@@ -39,7 +39,7 @@ function showSlides(n) {
 // Function to fetch film colors by ID
 function fetchFilmColorsById(filmId) {
   // Fetch the JSON data
-  fetch('./colourinfilm.json')
+  fetch('/Public/Javascript/colourinfilm.json')
     // Parse the JSON data
     .then(response => response.json())
     .then(data => {
