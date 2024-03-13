@@ -32,7 +32,7 @@ body {
   transition: 0.6s ease;
   border-radius: 3px;
   user-select: none;
-  background-image: url('/assets/Paris-Texas-018.jpg');
+  background-image: url('/Public/Assets/Paris-Texas-018.jpg');
   background-size: auto;
   opacity: 0.6;
 }
@@ -68,7 +68,7 @@ body {
 .sidebar {
   width: 20%;
   padding: 15px;
-  background-image: url('/assets/Paris-Texas-018.jpg');
+  background-image: url('/Public/Assets/Paris-Texas-018.jpg');
   background-size: cover;
   opacity: 0.6; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -130,7 +130,7 @@ body {
 }
 
 .navbar {
-  background-image: url('/assets/Paris-Texas-018.jpg');
+  background-image: url('/Public/Assets/Paris-Texas-018.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
