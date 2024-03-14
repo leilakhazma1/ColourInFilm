@@ -1,5 +1,5 @@
 // Controller function to handle user actions
-const colourInFilm = require();
+
 
 function handleUserAction(action, params) {
     switch (action) {
